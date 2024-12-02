@@ -1,4 +1,4 @@
-![vertispine icon](https://mediknothealth.web.app/imgs/vertispine-icon.png)
+<img src="https://mediknothealth.web.app/imgs/vertispine-icon.png" width="100px"/>
 # vertispine Jupyter notebook
 This is a simulated application illustrating the use of a 3 target machine learning classification algorithm in the orthopaedics outpatient clinical setting, submitted to the BOA x Stryker AI in Orthopaedics Hackathon 2024.
 <br/>
@@ -10,7 +10,8 @@ A web-app simulation can be seen at: [https://vertispine.vercel.app/](https://ve
 Python must be installed. The code automatically downloads all the necessary libraries from the `requirements.txt` file.
 
 ## Project structure
-
+The project has a `./data/` folder containing two files `column_2C_weka.arff` and `column_3C_weka.arff` from [UC Irvine's Machine Learning Repository](https://archive.ics.uci.edu/dataset/212/vertebral+column).
+`vertispine2C.ipynb` is the Jupyter notebook for two target classification and `vertispine3C.ipynb` is the Jupyter notebook for three target classification.
 
 ## Instructions
 1. Clone the repository with either HTTPS:
