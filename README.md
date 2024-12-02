@@ -8,11 +8,12 @@ Please see full details here: [vertispine infodeck](https://vertispine.vercel.ap
 A web-app simulation can be seen at: [https://vertispine.vercel.app/](https://vertispine.vercel.app/)
 
 ## Prerequisites
-Python must be installed. The code automatically downloads all the necessary libraries from the `requirements.txt` file.
+Python must be installed. The code automatically downloads all the necessary libraries from the `requirements.txt` file. If running from command line, all the libraries are stored in `requirements.txt` and can be installed with the command `pip install -r requirements.txt`.
 
 ## Project structure
 The project has a `./data/` folder containing two files `column_2C_weka.arff` and `column_3C_weka.arff` from [UC Irvine's Machine Learning Repository](https://archive.ics.uci.edu/dataset/212/vertebral+column).
 `vertispine2C.ipynb` is the Jupyter notebook for two target classification and `vertispine3C.ipynb` is the Jupyter notebook for three target classification.
+The file `requirements.txt` contains a list of required libraries.
 
 ## Instructions
 1. Clone the repository with either HTTPS:
@@ -21,3 +22,6 @@ or SSH
 `git@github.com:jdrmota/vertispine-jupyter.git`
 
 2. Run it with Jupyter from Anaconda Navigator to see all the markdown or in the command line with `jupyter nbconvert --to script --execute --stdout vertispine2C.ipynb | python` for the 2 target algorithm or `jupyter nbconvert --to script --execute --stdout vertispine3C.ipynb | python` for the 3 target algorithm.
+
+### Further information
+Full details can be read from the infodeck: [vertispine infodeck](https://vertispine.vercel.app/vertispine.pdf)
