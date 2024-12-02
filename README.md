@@ -1,4 +1,5 @@
 <img src="https://mediknothealth.web.app/imgs/vertispine-icon.png" width="100px"/>
+
 # vertispine Jupyter notebook
 This is a simulated application illustrating the use of a 3 target machine learning classification algorithm in the orthopaedics outpatient clinical setting, submitted to the BOA x Stryker AI in Orthopaedics Hackathon 2024.
 <br/>
@@ -19,4 +20,4 @@ The project has a `./data/` folder containing two files `column_2C_weka.arff` an
 or SSH
 `git@github.com:jdrmota/vertispine-jupyter.git`
 
-2. Run it with Anaconda Navigator or in the command line with `jupyter nbconvert --to script --execute --stdout vertispine2C.ipynb | python` for the 2 target algorithm or `jupyter nbconvert --to script --execute --stdout vertispine3C.ipynb | python` for the 3 target algorithm.
+2. Run it with Jupyter from Anaconda Navigator to see all the markdown or in the command line with `jupyter nbconvert --to script --execute --stdout vertispine2C.ipynb | python` for the 2 target algorithm or `jupyter nbconvert --to script --execute --stdout vertispine3C.ipynb | python` for the 3 target algorithm.
